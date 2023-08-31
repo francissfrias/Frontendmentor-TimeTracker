@@ -24,16 +24,7 @@ const buttonHoverVariants: any = {
   selfcare: 'group-hover:stroke-selfcare',
 };
 
-const textHoverVariants: any = {
-  work: 'hover:text-work',
-  play: 'hover:text-play',
-  study: 'hover:text-study',
-  exercise: 'hover:text-exercise',
-  social: 'hover:text-social',
-  selfcare: 'hover:text-selfcare',
-};
-
-const delayBounce = {
+const delayBounce: any = {
   0: 'group-hover:animate-[pulse_1s_ease-in-out_infinite] ',
   1: 'group-hover:animate-[pulse_1s_ease-in-out_infinite_100ms] ',
   2: 'group-hover:animate-[pulse_1s_ease-in-out_infinite_150ms] ',
